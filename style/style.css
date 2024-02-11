@@ -1,0 +1,264 @@
+/* Font style from google free font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* common shared style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: none;
+}
+
+.text-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* header section style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.banner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 116px;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+
+
+.banner img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Team section style */
+
+#all {
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.teams-content-title {
+    font-size: 2.8rem;
+}
+
+.teams-content-title .quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.teams-content-title .our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.teams-content-title .feature {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* features section style */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 146px;
+}
+
+.section-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.features .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    color: #131313;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+.features-img img {
+    height: 90%;
+    padding-left: 90px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 42px 45px;
+    width: 342px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years-badge h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.ten-years-badge p {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* some facts style */
+
+.facts {
+    margin-top: 130px;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.text-description {
+    margin-top: 20px;
+}
+
+.card-stats {
+    color: var(--Dark-02, #424242);
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-title {
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* our sponsored section style */
+.sponsored {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 24px;
+}
+
+.text-description {
+    margin-bottom: 50px;
+}
+
+.sponsored-container img {
+    padding-right: 50px;
+}
+
+/* footer section style */
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+footer p {
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 39px 0;
+
+}
